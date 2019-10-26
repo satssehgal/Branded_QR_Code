@@ -1,3 +1,5 @@
+# Instructions: https://youtu.be/WSLSRrhFD6U
+
 import qrcode
 from PIL import Image
 
