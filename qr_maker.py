@@ -21,4 +21,4 @@ img_qr_big = qr_big.make_image(fill_color=qr_color, back_color="white").convert(
 pos = ((img_qr_big.size[0] - logo.size[0]) // 2, (img_qr_big.size[1] - logo.size[1]) // 2)
 img_qr_big.paste(logo, pos)
 save_path = input('Please enter the filename you want for your branded qr code: ')
-img_qr_big.save('/Users/sahityasehgal/Desktop/'+save_path)
+img_qr_big.save(save_path)
